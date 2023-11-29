@@ -11,13 +11,13 @@ class Position(Enum):
 @unique
 class RegisterType(Enum):
     """ 寄存器 """
-    IP = "IP"  # 指令指针寄存器
+    IP = "IP"  # 指针寄存器
     BR = "BR"  # 缓存，例如用于存储除法的余数等等
-    AC = "ACC"  # 结果储存
+    AC = "ACC"  # 累加器
     PS = "PS"  # nzvc
     SP = "SP"  # 堆栈指针寄存器
     AR = "AR"  # 地址
-    IR = "IR"
+    IR = "IR"  # 指令寄存器
 
 
 @unique

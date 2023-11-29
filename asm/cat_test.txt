@@ -1,2 +1,1 @@
-Study hard and make progress every day
-Good good study, day day up
+Cat is an instruction used by Linux systems to read file contents

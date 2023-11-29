@@ -1,5 +1,5 @@
 from translator import translator
-from machine import machine
+from computer import machine
 import unittest
 
 
